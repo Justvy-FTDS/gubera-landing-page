@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "@/components/ui/logo";
 import AuthBg from "@/public/images/auth-bg.svg";
+import MockUp from "@/public/images/mockup.png";
 
 export default function AuthLayout({
   children,
@@ -64,28 +65,33 @@ export default function AuthLayout({
                   </span>
                 </div>
                 <div className="font-mono text-sm text-gray-500 transition duration-300 [&_span]:opacity-0">
-                  <span className="animate-[code-1_10s_infinite] text-gray-200">
-                    npm login
-                  </span>{" "}
-                  <span className="animate-[code-2_10s_infinite]">
-                    --registry=https://npm.pkg.github.com
-                  </span>
-                  <br />
-                  <span className="animate-[code-3_10s_infinite]">
-                    --scope=@phanatic
-                  </span>{" "}
-                  <span className="animate-[code-4_10s_infinite]">
-                    Successfully logged-in.
-                  </span>
-                  <br />
-                  <br />
-                  <span className="animate-[code-5_10s_infinite] text-gray-200">
-                    npm publish
-                  </span>
-                  <br />
-                  <span className="animate-[code-6_10s_infinite]">
-                    Package published.
-                  </span>
+                 {/* <img
+                  src={MockUp.src}
+                  alt="Sample"
+                  className="w-32 h-32 object-cover rounded-lg mx-auto mb-4"
+                /> */}
+                 <span className="animate-[code-1_10s_infinite] text-gray-200">
+                  npm login
+                </span>{" "}
+                <span className="animate-[code-2_10s_infinite]">
+                  --registry=https://npm.pkg.github.com
+                </span>
+                <br />
+                <span className="animate-[code-3_10s_infinite]">
+                  --scope=@phanatic
+                </span>{" "}
+                <span className="animate-[code-4_10s_infinite]">
+                  Successfully logged-in.
+                </span>
+                <br />
+                <br />
+                <span className="animate-[code-5_10s_infinite] text-gray-200">
+                  npm publish
+                </span>
+                <br />
+                <span className="animate-[code-6_10s_infinite]">
+                  Package published.
+                </span>
                 </div>
               </div>
             </div>

@@ -71,8 +71,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
+              Launch Your E-commerce Store in  <br className="max-lg:hidden" /> 10 Minutes
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -80,8 +79,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
+                Start selling online for just ₹499/month !
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
@@ -94,18 +92,18 @@ export default function HeroHome() {
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                      Get Started{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
                     </span>
                   </a>
-                  <a
+                  {/* <a
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
                     Learn More
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -116,20 +114,21 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
-            <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-300/.8),transparent)1]">
+            {/* <div className="relative aspect-video rounded-2xl bg-gray-900 px- py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,--theme(--color-slate-300/.8),transparent)1]">
+            <Image
+                  className="box-content"
+                  src={Mockup}
+                  // width={32}
+                  // height={32}
+                  alt="Mockup"
+                />      
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,var(--color-gray-600)_4.5px,transparent_0)] after:w-[41px]">
                 <span className="text-[13px] font-medium text-white">
                   cruip.com
                 </span>
               </div>
               <div className="font-mono text-gray-500 [&_span]:opacity-0">
-{/* <Image
-                  className="box-content"
-                  src={Mockup}
-                  // width={32}
-                  // height={32}
-                  alt="Mockup"
-                />                */}
+         
                  <span className="animate-[code-1_10s_infinite] text-gray-200">
                   npm login
                 </span>{" "}
@@ -153,7 +152,7 @@ export default function HeroHome() {
                   Package published.
                 </span> 
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
